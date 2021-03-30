@@ -39,3 +39,5 @@
 /cmake-build-debug/ex1
 /cmake-build-debug/Makefile
 /cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin
+.DS_Store
+.gradle/
