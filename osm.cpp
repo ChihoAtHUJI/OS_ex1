@@ -25,6 +25,7 @@ double osm_operation_time(unsigned int iterations){
     }
     gettimeofday(&end, NULL);
     retVal = (double)((end.tv_sec-start.tv_sec)*1000000 +(end.tv_usec-start.tv_usec))/(iterations);
+    // need to multiply 1000 to change unit into nanosecond
     return retVal*1000;
 }
 
