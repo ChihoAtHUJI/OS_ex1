@@ -25,7 +25,7 @@ double osm_operation_time(unsigned int iterations){
     }
     gettimeofday(&end, NULL);
     retVal = (double)((end.tv_sec-start.tv_sec)*1000000 +(end.tv_usec-start.tv_usec))/(iterations);
-    return retVal;
+    return retVal*1000;
 }
 
 double osm_function_time(unsigned int iterations){
@@ -44,7 +44,7 @@ double osm_function_time(unsigned int iterations){
     }
     gettimeofday(&end, NULL);
     retVal = (double)((end.tv_sec-start.tv_sec)*1000000 + (end.tv_usec-start.tv_usec))/(iterations);
-    return retVal;
+    return retVal*1000;
 }
 
 double osm_syscall_time(unsigned int iterations){
@@ -63,7 +63,7 @@ double osm_syscall_time(unsigned int iterations){
     }
     gettimeofday(&end, NULL);
     retVal = (double)((end.tv_sec-start.tv_sec)*1000000 +(end.tv_usec-start.tv_usec))/(iterations);
-    return retVal;
+    return retVal*1000;
 }
 
 
