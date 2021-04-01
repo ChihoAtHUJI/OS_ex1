@@ -1,5 +1,7 @@
 /cmake-build-debug
-/.idea
+/.idea/misc.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
 /pythonGraph/venv
 /pythonGraph/.idea
 CMakeLists.txt
