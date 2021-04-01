@@ -2,4 +2,5 @@
 /.idea
 /pythonGraph/venv
 /pythonGraph/.idea
-CMakeList.txt
+/CMakeList.txt
+/.DS_Storet
