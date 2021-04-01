@@ -1,0 +1,5 @@
+/cmake-build-debug
+/.idea
+/pythonGraph/venv
+/pythonGraph/.idea
+CMakeList.txt
