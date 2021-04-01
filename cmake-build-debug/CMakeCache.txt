@@ -225,6 +225,12 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
 //Value Computed by CMake
+Project_BINARY_DIR:STATIC=/Users/chihosong/CLionProjects/Os/ex1/cmake-build-debug
+
+//Value Computed by CMake
+Project_SOURCE_DIR:STATIC=/Users/chihosong/CLionProjects/Os/ex1
+
+//Value Computed by CMake
 ex1_BINARY_DIR:STATIC=/Users/chihosong/CLionProjects/Os/ex1/cmake-build-debug
 
 //Value Computed by CMake
