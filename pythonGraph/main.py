@@ -4,9 +4,9 @@ import numpy as np
 
 
 labels = ["Direct", "Container", "VM"]
-Cal = [1.98, 1.96, 6.82]
-function_time = [1.61,  1.57, 25.02]
-trap_time = [390.21,  388.49, 654.52]
+Cal = [2.01, 2.06, 6.82]
+function_time = [1.83,  1.84, 25.02]
+trap_time = [413.83,  418.74, 695.52]
 
 x = np.arange(len(labels))  # the label locations
 width = 0.2  # the width of the bars
