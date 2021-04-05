@@ -68,17 +68,3 @@ double osm_syscall_time(unsigned int iterations){
 }
 
 
-int main(int argc, char** argv) {
-    
-    if (argc != 2){
-        std::cout << "Invalid Argument Number" << std::endl;
-        return -1;
-    }
-
-    unsigned long ul = std::stoul (argv[1], nullptr, 0);
-    std::cout <<"Operation time: " << osm_operation_time(ul) << std::endl;
-    std::cout <<"Function time: " << osm_function_time(ul) << std::endl;
-    std::cout <<"Trap time: " <<osm_syscall_time(ul) << std::endl;
-
-    return 0;
-}

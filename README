@@ -1,0 +1,24 @@
+giladsid7, chiho.song
+Gilad Sid (313328098), Chiho Song (777713736)
+EX: 1
+
+FILES:
+osm.cpp -- A static library, providing functions that measure time it takes to perform certain operations.
+machine_comparison.png -- A graph providing information about the running time of the osm.cpp library
+on different environments.
+
+REMARKS:
+These are some remarks that
+I want the graders to know
+about this submission.
+
+ANSWERS:
+
+Assignment 1
+The program "WhatIDo" does the following:
+1. Creates a directory called "Welcome"
+2. Creates a directory inside the "Welcome" directory called "To"
+3. Creates a file called "OS2021"
+4. Write "cs_username\n If you haven't read th"
+5. Closes the file "OS2021"
+6. Deletes the file and the directories it created
