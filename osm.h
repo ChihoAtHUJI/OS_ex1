@@ -32,3 +32,6 @@ double osm_function_time(unsigned int iterations);
 double osm_syscall_time(unsigned int iterations);
 
 #endif //EX1_OSM_H
+
+
+
