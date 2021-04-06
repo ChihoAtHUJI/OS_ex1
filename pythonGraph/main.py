@@ -18,12 +18,12 @@ rects3 = ax.bar(x + width, trap_time, width, label='syscall')
 
 
 # Add some text for labels, title and custom x-axis tick labels, etc.
-ax.set_ylabel('Average Time(nanosec)')
-ax.set_title('Compare time in different environments')
+ax.set_ylabel('Average Time[nano-sec]')
+ax.set_title('Different environment runtime comparison')
 ax.set_xticks(x)
 ax.set_xticklabels(labels)
 plt.yscale("log")
-ax.legend()
+ax.legend(loc='lower right')
 
 ax.bar_label(rects1, padding=3)
 ax.bar_label(rects2, padding=3)
@@ -33,4 +33,4 @@ ax.bar_label(rects3, padding=3)
 fig.tight_layout()
 
 # plt.show()
-plt.savefig('compare.png', bbox_inches='tight')
+plt.savefig('machine_comparison.png', bbox_inches='tight')

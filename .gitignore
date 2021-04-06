@@ -6,4 +6,5 @@
 /pythonGraph/.idea
 CMakeLists.txt
 .DS_Store
-.idea
+.idea/
+ex1.tar
